@@ -3,15 +3,32 @@ $button-background-color: #5d766e;
 $button-hover-background-color: #d5ebda;
 $button-color: #fff;
 $button-hover-color: #000;
+$table-header-background-color: #3c4240;
+$table-header-color: #fff;
+$table-row-background-color: #fff;
+$table-row-alt-background-color: #f9f9f9;
 
 html, body {
     background-color: #fff;
     color: #000;
     font-size: 16px;
+    text-align: center;
+}
+
+#page {
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: left;
+
+    h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
 }
 
 #options {
     display: flex;
+    justify-content: flex-end;
 
     a {
         background-color: $button-background-color;
@@ -28,5 +45,32 @@ html, body {
         background-color: $button-hover-background-color;
         border-color: $button-background-color;
         color: $button-hover-color;
+    }
+}
+
+#books {
+    table {
+        border-collapse: collapse;
+        margin: 2rem 0;
+        width: 100%;
+
+        th, td {
+            font-size: 1.25rem;
+            padding: 1rem;
+        }
+
+        th {
+            background-color: $table-header-background-color;
+            color: $table-header-color;
+            text-align: left;
+        }
+
+        tr {
+            background-color: $table-row-background-color;
+
+            &:nth-child(odd) {
+                background-color: $table-row-alt-background-color;
+            }
+        }
     }
 }
