@@ -1,10 +1,7 @@
 <h1>Editing book</h1>
 
-<%= render "form", book: @book %>
-
-<br>
-
-<div>
-  <%= link_to "Show this book", @book %> |
+<section id="navigation">
   <%= link_to "Back to books", books_path %>
-</div>
+</section>
+
+<%= render "form", book: @book %>
