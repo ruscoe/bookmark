@@ -11,27 +11,30 @@
     </div>
   <% end %>
 
-  <div>
-    <%= form.label :title, style: "display: block" %>
-    <%= form.text_field :title %>
-  </div>
+  <section id="book-form" class="book">
+    <table>
+      <tbody>
+        <tr>
+          <th><%= form.label :title %></th>
+          <td><%= form.text_field :title %></td>
+        </tr>
+        <tr>
+          <th><%= form.label :author %></th>
+          <td><%= form.text_field :author %></td>
+        </tr>
+        <tr>
+          <th><%= form.label :isbn %></th>
+          <td><%= form.text_field :isbn %></td>
+        </tr>
+        <tr>
+          <th><%= form.label :owned_on %></th>
+          <td><%= form.date_field :owned_on %></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-  <div>
-    <%= form.label :author, style: "display: block" %>
-    <%= form.text_field :author %>
-  </div>
-
-  <div>
-    <%= form.label :isbn, style: "display: block" %>
-    <%= form.text_field :isbn %>
-  </div>
-
-  <div>
-    <%= form.label :owned_on, style: "display: block" %>
-    <%= form.date_field :owned_on %>
-  </div>
-
-  <div>
+  <section id="actions">
     <%= form.submit %>
-  </div>
+  </section>
 <% end %>
