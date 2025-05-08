@@ -9,6 +9,8 @@ $table-header-background-color: #3c4240;
 $table-header-color: #fff;
 $table-row-background-color: #fff;
 $table-row-alt-background-color: #f9f9f9;
+$link-color: #007bff;
+$link-hover-color: #0056b3;
 
 html, body {
     background-color: #fff;
@@ -26,6 +28,18 @@ html, body {
     h1 {
         font-size: 2.5rem;
         text-align: center;
+    }
+}
+
+#navigation, #footer {
+    a {
+        color: $link-color;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $link-hover-color;
+        text-decoration: underline;
     }
 }
 
