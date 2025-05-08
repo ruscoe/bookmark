@@ -3,6 +3,8 @@ $button-background-color: #5d766e;
 $button-hover-background-color: #d5ebda;
 $button-color: #fff;
 $button-hover-color: #000;
+$delete-button-background-color: #d9534f;
+$delete-button-color: #fff;
 $table-header-background-color: #3c4240;
 $table-header-color: #fff;
 $table-row-background-color: #fff;
@@ -32,10 +34,12 @@ html, body {
     }
 }
 
-#options {
+#options, #secondary-options {
     display: flex;
     justify-content: flex-end;
+}
 
+#options {
     a {
         background-color: $button-background-color;
         border: 1px solid $button-color;
@@ -51,6 +55,23 @@ html, body {
         background-color: $button-hover-background-color;
         border-color: $button-background-color;
         color: $button-hover-color;
+    }
+}
+
+#secondary-options {
+    button {
+        background-color: $button-background-color;
+        border: 1px solid $button-color;
+        border-radius: 1rem;
+        color: $button-color;
+        font-size: 1.25rem;
+        font-weight: bold;
+        padding: 1rem 2rem;
+    }
+
+    .delete {
+        background-color: $delete-button-background-color;
+        color: $delete-button-color;
     }
 }
 

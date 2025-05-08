@@ -12,6 +12,6 @@
 
 <%= render @book %>
 
-<div>
-  <%= button_to "Destroy this book", @book, method: :delete, data: { confirm: "Are you sure you want to delete this book?" } %>
-</div>
+<section id="secondary-options">
+  <%= button_to "Delete book", @book, method: :delete, data: { confirm: "Are you sure you want to delete this book?" }, class: "delete" %>
+</section>
