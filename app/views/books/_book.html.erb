@@ -5,6 +5,7 @@
       <tr><th>Author</th><td><%= book.author %></td></tr>
       <tr><th>Owned Since</th><td><%= book.owned_on %></td></tr>
       <tr><th>ISBN</th><td><%= book.isbn %></td></tr>
+      <tr><th>Notes</th><td><%= @book.notes.presence || "None" %></td></tr>
     </tbody>
   </table>
 </section>
