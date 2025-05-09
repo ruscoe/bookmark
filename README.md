@@ -24,6 +24,8 @@ Install requirements:
 
 `bundle install`
 
+`npm install`
+
 Configure your database:
 
 `cp config/database.yml.example config/database.yml`
@@ -55,6 +57,10 @@ Create the database:
 rails db:create
 rails db:migrate
 ```
+
+Build the CSS:
+
+`npm run build:css`
 
 ## Running
 
