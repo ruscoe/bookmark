@@ -45,9 +45,6 @@ yarn-error.log
 # Ignore coverage reports
 coverage/
 
-# Ignore vendor directory
-/vendor/
-
 # Ignore environment variable files
 .env
 
