@@ -11,6 +11,7 @@ $table-row-background-color: #fff;
 $table-row-alt-background-color: #f9f9f9;
 $link-color: #007bff;
 $link-hover-color: #0056b3;
+$notice-color: #388027;
 
 html, body {
     background-color: #fff;
@@ -29,6 +30,13 @@ html, body {
         font-size: 2.5rem;
         text-align: center;
     }
+}
+
+#notice {
+    color: $notice-color;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
 }
 
 #navigation, #footer, table td {

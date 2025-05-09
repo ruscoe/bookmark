@@ -1,11 +1,13 @@
 <% content_for :title, "#{@book.title} | Bookmark" %>
 
-<p style="color: green"><%= notice %></p>
-
 <h1><%= @book.title %></h1>
 
 <section id="navigation">
   <%= link_to "Back to books", books_path %>
+</section>
+
+<section id="notice">
+  <%= notice %>
 </section>
 
 <section id="options">

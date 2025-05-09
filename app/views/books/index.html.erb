@@ -1,8 +1,10 @@
 <% content_for :title, "Book List | Bookmark" %>
 
-<p style="color: green"><%= notice %></p>
-
 <h1>Books</h1>
+
+<section id="notice">
+  <%= notice %>
+</section>
 
 <section id="options">
   <%= link_to "New book", new_book_path %>
