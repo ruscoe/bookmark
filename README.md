@@ -1,3 +1,5 @@
+![bookmark_banner](https://github.com/user-attachments/assets/6e0dcdec-3a5d-47b8-b944-41ae0fe4dee9)
+
 # Bookmark
 
 A Rails application that tracks the books you own.
