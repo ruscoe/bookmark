@@ -1,6 +1,6 @@
-![bookmark_banner](https://github.com/user-attachments/assets/6e0dcdec-3a5d-47b8-b944-41ae0fe4dee9)
-
 # Bookmark
+
+![Bookmark Screenshot](https://github.com/user-attachments/assets/99e5de28-cea4-4ff3-baf7-0122f4c8c54d)
 
 A Rails application that tracks the books you own.
 
